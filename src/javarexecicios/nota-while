@@ -1,0 +1,25 @@
+package loops;
+
+import java.util.Scanner;
+
+public class nota {
+    public static void main(String[] args) {
+        
+        Scanner scan=new Scanner(System.in); /*scanner é para ler algo*/
+        int nota;
+
+        System.out.println("Digite uma nota entre zero a 10: ");
+        nota=scan.nextInt(); 
+
+        while (nota<0 | nota>10){
+
+            System.out.println("Nota inválida");
+
+            System.out.println("Digite uma nota entre zero a 10: ");
+            nota=scan.nextInt();
+
+}
+
+}
+}
+}
